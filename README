@@ -1,0 +1,5 @@
+A lightweight launcher built upon aether to allow easy provisioning and running of programs deployed to maven
+repositories.
+
+Example:
+java -jar aether-runner-0.1-SNAPSHOT.jar com.example.someapp:some-app:1.0 com.example.package.to.Main

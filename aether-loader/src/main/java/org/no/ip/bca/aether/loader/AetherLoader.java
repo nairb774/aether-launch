@@ -80,6 +80,7 @@ public class AetherLoader {
         
         final LocalRepository localRepository = new LocalRepository(localRepoLocation);
         repositorySession.setLocalRepositoryManager(repositorySystem.newLocalRepositoryManager(localRepository));
+        repositorySession.setTransferListener(new LoggingTransferListener());
         
         final Dependency dependency = new Dependency(new DefaultArtifact(coord), "compile");
         final RemoteRepository rootRepo = new RemoteRepository("root-repo", "default", rootRepoUrl);

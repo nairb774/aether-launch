@@ -25,13 +25,6 @@ public class AetherLoaderTest {
     public final TemporaryFolder temporaryFolder = new TemporaryFolder();
     
     @Test
-    public void foo() throws Exception {
-        final AetherLoader aetherLoader = new AetherLoader();
-        aetherLoader.setLocalRepoLocation(temporaryFolder.getRoot());
-        aetherLoader.getClasspath("file:///home/brian/.m2/repository/", "org.no-ip.bca:web-scripts:0.1-SNAPSHOT");
-    }
-    
-    @Test
     public void testResolution() throws Exception {
         final AetherLoader aetherLoader = new AetherLoader();
         aetherLoader.setLocalRepoLocation(temporaryFolder.getRoot());

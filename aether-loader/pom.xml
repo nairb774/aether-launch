@@ -9,6 +9,7 @@
     </parent>
     <groupId>org.no-ip.bca</groupId>
     <artifactId>aether-loader</artifactId>
+    <name>Dependency loading support</name>
     <version>0.1-SNAPSHOT</version>
     <licenses>
         <license>

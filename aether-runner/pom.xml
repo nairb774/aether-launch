@@ -9,6 +9,7 @@
     </parent>
     <groupId>org.no-ip.bca</groupId>
     <artifactId>aether-runner</artifactId>
+    <name>Main runner class</name>
     <version>0.1-SNAPSHOT</version>
     <licenses>
         <license>

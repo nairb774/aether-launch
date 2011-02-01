@@ -9,6 +9,7 @@
     </parent>
     <groupId>org.no-ip.bca</groupId>
     <artifactId>aether-launch</artifactId>
+    <name>Full package</name>
     <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <licenses>

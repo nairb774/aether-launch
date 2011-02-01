@@ -4,6 +4,7 @@
     <groupId>org.no-ip.bca</groupId>
     <artifactId>aether-launch-parent</artifactId>
     <packaging>pom</packaging>
+    <name>Aether based program launcher</name>
     <version>0.1-SNAPSHOT</version>
     <licenses>
         <license>

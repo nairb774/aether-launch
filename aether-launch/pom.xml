@@ -3,13 +3,13 @@
     <parent>
         <groupId>org.no-ip.bca</groupId>
         <artifactId>aether-launch-parent</artifactId>
-        <version>0.1</version>
+        <version>0.2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>org.no-ip.bca</groupId>
     <artifactId>aether-launch</artifactId>
     <name>Full package</name>
-    <version>0.1</version>
+    <version>0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <licenses>
         <license>

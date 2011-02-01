@@ -4,7 +4,7 @@
     <artifactId>aether-launch-parent</artifactId>
     <packaging>pom</packaging>
     <name>Aether based program launcher</name>
-    <version>0.1</version>
+    <version>0.2-SNAPSHOT</version>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
